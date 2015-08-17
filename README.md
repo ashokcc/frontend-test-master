@@ -21,7 +21,8 @@ Follow the instructions displayed on that webpage.
 
 What URL should be used to access your application?
 
-  --- Need to be installed nodejs, then install the npm and run : node server.js
+  --- Need to be install nodejs, install the npm inside the folder "frontend-test-master" and then 
+        run : node server.js
          http://localhost:8888/#/
 
 What libraries did you use to write your application?
