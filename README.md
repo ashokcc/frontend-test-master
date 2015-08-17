@@ -20,33 +20,52 @@ Follow the instructions displayed on that webpage.
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 What URL should be used to access your application?
+
   --- Need to be installed nodejs, then install the npm and run : node server.js
          http://localhost:8888/#/
 
 What libraries did you use to write your application?
+
   ---  Nodejs, Express, AngularJs
 
 What influenced the design of your user interface?
+
   --- As per the requirement specification/objectives, i do understand how exactly the user interaction should be maintained and  designed.
+ 
   --- Be specific with the content so avoiding complexity for user navigables content.
+  
   --- Make application accessible to all users.
+ 
   --- Design of user friendly features and make them available in all equip devices.
+  
   --- Look at the target audience and design the prototype as per the information architecture.
+  
   ---- 
 What steps did you take to make your application user friendly?
+
    --- Make the application as simple as possible so that user should not be searching for information he is looking for.
+   
    --- Getting the feedback from users to improvise the application more useful
+   
    --- Metrics Tracking and  Monitoring can give us the actual content traffic on the site 
+   
    ---  Provide help tips interaction messages for any user flow.
+   
    --- provide customization to the sections  to which user is most likely visiting
+   
 
 What steps did you take to insure your application was secure?
+
    --- Load the secured URL's through https protocol.
+
    --- Avoid sending the secured information in the URL.
+
    --- prevent accessing of  Directory  files from server.
+
    --- encode the secured information using algorightms
 
 What could be done to the front end or back end to make it more secure?
+
   --- Ensure who can access the content of the site.
   --- Get notifications whenever some secured or important information changes.
   --- Add re write rules in HTACCESS, which pages needs to crawled by the SEO engines.
