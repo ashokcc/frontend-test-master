@@ -1,0 +1,26 @@
+body {
+  padding: 15px 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+a {
+  color: #00B7FF;
+}
+.states-container .lbl{
+    width: 180px;
+    display: inline-block;
+}
+.msgs-container .lbl{
+	font-weight:bold;
+	display: inline-block;
+
+}
+.msgs-container .lbl-data{
+	width:100px;
+	display: inline-block;
+
+}
+.states-container .title{
+	margin: 15px 0;
+}

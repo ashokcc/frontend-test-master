@@ -1,0 +1,36 @@
+<div class="container">
+	<ol class="breadcrumb">
+	  <li><a href="#/states">Home</a></li>
+	  <li><a href="#/guest">Guest Book</a></li>
+	  <li><a href="#/" ng-click="logout()">Logout</a></li>
+	</ol>       
+</div>
+<div class="msgs-container container" ng-controller="msgsCtrl">
+	<p class="title">Guest book Details</p>
+	<ul class="list-group">
+	  <li class="list-group-item" ng-repeat="msg in msgs">
+	  	<span class="lbl">User:</span> <span class="lbl-data">{{msg.user}} </span>
+	  	<span class="lbl">Phone: </span> <span class="lbl-data">{{msg.phone}}  </span>
+	  	<span class="lbl"> Message:  </span> <span class="lbl-data">{{msg.message}} </span><br>
+	  </li>
+	</ul>
+
+	<h3>Add Guest book</h3>
+	<div class="row">
+		<div class="col-md-3">
+			<form ng-submit="guestSubmit()">			
+				<div class="form-group">
+					<input type="phone" placeholder="Phone" ng-model="msg.phone" class="form-control" autofocus>
+				</div>
+				<div class="form-group">
+					<input type="text" placeholder="Message" ng-model="msg.message" class="form-control">
+				</div>
+				<div class="form-group">
+                    <input type="submit" class="btn btn-primary btn-block" value="Add Guest book" />
+				</div>
+			</form>
+			
+		</div>
+	</div>
+
+</div>

@@ -1,0 +1,28 @@
+<div class="container">
+	<ol class="breadcrumb">
+	  <li><a href="#/states">Home</a></li>
+	  <li><a href="#/guest">Guest Book</a></li>
+	  <li><a href="#/" ng-click="logout()">Logout</a></li>
+	</ol>       
+</div>
+
+<div class="states-container container" ng-controller="statesCtrl">
+	<h3>States List</h3>
+	<div class="row">
+		<div class="col-md-3">
+			<select  ng-model="selectedOption" ng-change="selectedState(selectedOption)" class="form-control">
+				<option ng-repeat="state in states" value="{{state.abbreviation}}">{{state.name}}</option>
+			</select>
+		</div>
+	</div>
+
+	<p class="title">Selected State Details</p>
+	<ul class="list-group">
+	  <li class="list-group-item"><span class="lbl">Country Code: </span> {{abbreviation}} </li>
+	  <li class="list-group-item"><span class="lbl">Capital: </span>{{capital}} </li>
+	  <li class="list-group-item"><span class="lbl">Most populous city: </span> {{mostPopulousCity}}</li>
+	  <li class="list-group-item"><span class="lbl">population: </span> {{population}} </li>
+	  <li class="list-group-item"><span class="lbl">Time zone: </span> {{timezoneOne}} {{timezoneTwo}}</li>
+	  <li class="list-group-item"><span class="lbl">Total Area in square-miles: </span> {{squareMiles}}</li>
+	</ul>
+</div>
