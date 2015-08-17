@@ -67,9 +67,15 @@ What steps did you take to insure your application was secure?
 What could be done to the front end or back end to make it more secure?
 
   --- Ensure who can access the content of the site.
+  
   --- Get notifications whenever some secured or important information changes.
+  
   --- Add re write rules in HTACCESS, which pages needs to crawled by the SEO engines.
+  
   --- Disable autocomplete for secured info like password.
+  
   --- Use captcha validation before submitting any data from the html forms
+  
   --- Prevent doing Cross site scripting to pass in javascript code into web forms to run malicious code to our site, so add validation on all front end input controls as specific as possible.
+  
   ---
