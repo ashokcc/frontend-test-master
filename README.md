@@ -15,6 +15,8 @@ node server.js
 There should now be a web server running at http://localhost:8888
 Follow the instructions displayed on that webpage.
 
+Note: the guest book functionality is not fully done because of time constraint.
+
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	Questions
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
